@@ -5,6 +5,6 @@ module "s3-bucket" {
   acceleration_status = "Enabled"
   bucket = "brian-bucket"
   bucket_prefix = "brian-cai"
-  policy = {}
+  policy = "{}"
   request_payer = "BucketOwner"
 }
